@@ -9,6 +9,12 @@
 
 ---
 
+<p align="center">
+  <img src="03_CoverImage_16x9/cover_image.png" alt="PHANToM GRID AuraVTO Banner" width="100%">
+</p>
+
+---
+
 ## Executive Overview
 **PHANToM GRID :: AuraVTO & SkinSense AI Nexus** is an enterprise-grade autonomous beauty-tech and e-commerce virtual try-on engine engineered for the **YouCam API Skin AI & eCommerce VTO Hackathon 2026**.
 
@@ -19,6 +25,6 @@ The Nexus couples Perfect Corp's YouCam API with PG-MOD-18 3D Gaussian Splatting
 ## 3-Line Reproduction Guide
 ```bash
 git clone -b main https://github.com/jackhu24-ship-it/phantom-grid-auravto-skinsense.git
-cd phantom-grid-auravto-skinsense
+cd phantom-grid-auravto-skinsense/02_SourceCode
 pytest -v tests/test_youcam_vto_closure.py
 ```
