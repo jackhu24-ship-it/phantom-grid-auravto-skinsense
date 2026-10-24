@@ -16,19 +16,19 @@
 
 ---
 
-## 🧭 Executive Fast-Track Navigation Matrix (長官專屬一秒直達矩陣)
+## 🧭 Executive Fast-Track Navigation Matrix
 
-| 審查核心資產 (Deliverable Target) | 官方定位與標準 | 一鍵直達檢閱入口 (Direct Jump Link) |
+| Deliverable Target | Technical Specification & Standard | Direct Executive Access |
 | :--- | :--- | :---: |
-| 🎬 **好萊塢 1440P 演示影片** | 2:08 紀錄片原聲 ✕ 0.00ms 鎖相神經字幕 | 👉 **[YouTube 官方公網母帶](https://youtu.be/GExjzxE_VUM)** |
-| 🌐 **線上即時互動應用 (Live App)** | 零冷啟動 Web 膚質檢測與 VTO 互動控制台 | 👉 **[GitHub Pages 線上控制台](https://jackhu24-ship-it.github.io/phantom-grid-auravto-skinsense/)** |
-| 📊 **執行簡報投影片 (Slides Deck)** | 10 頁純英文 16:9 電競賽博高管簡報 | 👉 **[10 頁簡報模板](04_Slides_PDF/slides_10page_template.html)** ｜ **[簡報專區](04_Slides_PDF/)** |
-| 📜 **規格架構白皮書 (SPEC-01)** | 滿血四圖一表原始碼 ＋ Table 1 防禦矩陣 | 👉 **[SPEC-01 技術白皮書](01_Specs/SPEC_01_AuraVTO_Architecture.md)** |
-| 📐 **系統藍圖純圖紙 (MMD)** | 拓撲圖、時序圖、狀態圖、安全隔離圖 | 👉 **[Mermaid 純圖紙目錄](01_Specs/blueprints/)** |
-| 🧪 **全棧 18 項原子閉環測試** | 18/18 剛性斷言全綠 (4/4 核心 + 14 門禁) | 👉 **[測試源碼庫房](02_SourceCode/tests/)** |
-| 🛡️ **不可篡改審計收執 (WORM)** | SHA-256 密碼學零數據殘留 (0.000000 MB) | 👉 **[WORM 審計收執](08_AuditReceipts/WORM_AUDIT_RECEIPT.json)** |
-| 🏆 **官方提交文案包 (Devpost)** | 官方 7 大段純英文文案 ＋ 7 大剛性斷言 | 👉 **[Devpost 交件文案包](07_SubmissionPackage/Devpost_Submission_Package.md)** |
-| ⚡ **本地主管線執行腳本** | 一鍵本地運算 16 項指標 ＋ 3DGS 擬合 | 👉 **[main.py 主腳本](02_SourceCode/main.py)** |
+| 🎬 **Hollywood 1440P Demo Video** | 2:08 Broadcast Narration ✕ 0.00ms Phase-Locked Subtitles | 👉 **[Official YouTube Stream](https://youtu.be/GExjzxE_VUM)** |
+| 🌐 **Live Interactive Console (Live App)** | Zero-Cold-Start Client-Side Web Diagnostics & VTO Hub | 👉 **[Live GitHub Pages Console](https://jackhu24-ship-it.github.io/phantom-grid-auravto-skinsense/)** |
+| 📊 **Executive Presentation Deck (Slides)** | 10-Page Cyberpunk Executive Slides (16:9 Vector PDF) | 👉 **[10-Page Slides Template](04_Slides_PDF/slides_10page_template.html)** ｜ **[Slides Directory](04_Slides_PDF/)** |
+| 📜 **Architecture Whitepaper (SPEC-01)** | Full Four Diagrams & One Table Specification Matrix | 👉 **[SPEC-01 Technical Whitepaper](01_Specs/SPEC_01_AuraVTO_Architecture.md)** |
+| 📐 **Standalone System Blueprints (MMD)** | Topology, Sequence Flow, State Machine & Security Boundary | 👉 **[Mermaid Blueprints Directory](01_Specs/blueprints/)** |
+| 🧪 **Full-Stack 18-Gate Test Suite** | 18/18 Rigid Assertions Passed (4 Core + 14 Compliance) | 👉 **[Automated Test Suite](02_SourceCode/tests/)** |
+| 🛡️ **Tamper-Proof Audit Receipt (WORM)** | SHA-256 Bitwise Cryptographic Zero-Residue Signature | 👉 **[WORM Audit Receipt](08_AuditReceipts/WORM_AUDIT_RECEIPT.json)** |
+| 🏆 **Devpost Submission Copy Package** | 7 Official Devpost Sections + Pitch + Reproduction SLA | 👉 **[Official Submission Package](07_SubmissionPackage/Devpost_Submission_Package.md)** |
+| ⚡ **Local Pipeline Runner Engine** | Sub-Millisecond E2E Diagnostics & 3DGS Fitting Pipeline | 👉 **[main.py Master Script](02_SourceCode/main.py)** |
 
 ---
 
