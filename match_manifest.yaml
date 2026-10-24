@@ -1,0 +1,28 @@
+match_id: "202611_YouCam_Skin_AI_VTO_Hackathon"
+tournament_title: "YouCam API Skin AI and eCommerce VTO Hackathon"
+organizer: "Perfect Corp (Devpost)"
+submission_deadline: "2026-11-03 00:45 GMT+8"
+prize_pool: "$6,000 USD (Cash)"
+official_portal: "https://youcam-api-skin-ai-ecommerce.devpost.com/"
+participation_mode: "Solo Closed (PHANTOM GRID - Jack Hu)"
+target_track: "AI Skin Analysis and AR/VR eCommerce Virtual Try-On (VTO)"
+phantom_core_weapon: "PG-MOD-18-EYE (Spatial Vision 3DGS) x YouCam API Realtime Inference x ASIL-D 50GB Meltdown x ZDR 0.000000 MB Memory Scrubbing"
+
+required_deliverables:
+  - "01_Specs"
+  - "02_SourceCode"
+  - "03_CoverImage_16x9"
+  - "04_Slides_PDF"
+  - "05_DemoVideo_1440P"
+  - "06_LiveApp"
+  - "07_SubmissionPackage"
+  - "08_AuditReceipts"
+  - "09_ChaosReports"
+  - "10_Releases"
+
+compliance_invariants:
+  spec_first: true
+  vram_ceiling_gb: 50.0
+  zdr_zero_residue_mb: 0.000000
+  vertical_coverage_ratio: 0.82
+  co_signed_by: "COMMANDER JACK HU x COMMANDER XIAOMI"

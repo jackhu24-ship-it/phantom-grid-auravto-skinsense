@@ -1,0 +1,14 @@
+graph TD
+    CLI["User CLI / REST Ingress"] --> SEC_CHK["Security Token & VRAM Pre-check"]
+    MCP["YouCam MCP Gateway (mcp-api-01)"] --> SEC_CHK
+    SEC_CHK --> ORCH["AuraVTO Master Orchestrator"]
+    ORCH --> SM["FSM State Machine (4-Phase)"]
+    ORCH --> CTX["Isolated Context Manager"]
+    CTX --> SKIN["YouCam Skin AI Engine (16+ Biomarkers)"]
+    SKIN --> EYE["PG-MOD-18 Spatial Eye (3DGS Manifold)"]
+    EYE --> VTO["Look & Apparel VTO Synthesis Engine"]
+    VTO --> REV["Convergence & Quality Reviewer"]
+    REV --> DAMP["1.35x Geometric Damping Controller"]
+    DAMP --> MELT["ASIL-D 50GB VRAM Circuit Breaker"]
+    MELT --> ZDR["2-Pass ZDR (0xAA->0x00) Purger"]
+    ZDR --> WORM["WORM Cryptographic Audit Receipt"]

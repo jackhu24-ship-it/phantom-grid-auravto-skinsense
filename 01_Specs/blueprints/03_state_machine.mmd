@@ -1,0 +1,12 @@
+stateDiagram-v2
+    [*] --> IngressValidation : User Selfie Received
+    IngressValidation --> SkinDiagnostics : Nonce & Token Validated
+    IngressValidation --> FaultTrip : Invalid Image / Auth Failure
+    SkinDiagnostics --> SpatialMeshAlignment : 16 Biomarkers Extracted
+    SpatialMeshAlignment --> LookVTORender : 3D Keypoints Aligned
+    LookVTORender --> QualityAudit : Texture Composite Finished
+    QualityAudit --> ZDRPurgeAndRelease : SSIM >= 0.92 & Load Nominal
+    QualityAudit --> DampedRetry : Load > 85% or Jitter Detected
+    DampedRetry --> LookVTORender : 1.35x Damping Applied
+    ZDRPurgeAndRelease --> [*] : ZDR Zero-Residue Verified
+    FaultTrip --> [*] : Emergency Halt (ESTOP)

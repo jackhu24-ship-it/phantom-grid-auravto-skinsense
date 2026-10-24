@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phantom-grid-auravto-skinsense"
+version = "1.0.0"
+description = "Autonomous Agentic Skin Diagnostics & Spatial AR/VR Virtual Try-On Engine for YouCam API Hackathon"
+authors = [{name = "Jack Hu", email = "jackhu24@gmail.com"}]
+dependencies = [
+    "pytest>=8.0.0",
+    "pyyaml>=6.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0a1224"/>
+      <stop offset="100%" stop-color="#030509"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#ff007f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <circle cx="960" cy="540" r="420" fill="none" stroke="#00f5ff" stroke-width="1.5" opacity="0.15" stroke-dasharray="8 8"/>
+  <circle cx="960" cy="540" r="300" fill="none" stroke="#ff007f" stroke-width="1.5" opacity="0.25"/>
+  <text x="960" y="380" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-weight="900" font-size="72" fill="#ffffff" text-anchor="middle" letter-spacing="4">PHANToM GRID :: AuraVTO</text>
+  <text x="960" y="460" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="34" fill="url(#cyanGrad)" text-anchor="middle" letter-spacing="6">SKINSENSE AI &amp; SPATIAL AR/VR VTO NEXUS</text>
+  <text x="960" y="550" font-family="'Courier New', monospace" font-size="24" fill="#a0b3d6" text-anchor="middle">YouCam API ✕ PG-MOD-18 3DGS ✕ ASIL-D 50GB Meltdown ✕ ZDR 0.00MB</text>
+  <rect x="560" y="620" width="800" height="70" rx="35" fill="#0c1a36" stroke="#00f5ff" stroke-width="2"/>
+  <text x="960" y="665" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="26" fill="#00f5ff" text-anchor="middle">16+ Biomarkers · Sub-Millisecond Inference · Zero Data Residue</text>
+  <text x="960" y="980" font-family="'Courier New', monospace" font-size="20" fill="#4a607a" text-anchor="middle">SOLO ARCHITECT: JACK HU ✕ COMMAND POST XIAOMI | SOVEREIGN CONSTITUTION v6.4.0</text>
+</svg>

@@ -1,0 +1,27 @@
+sequenceDiagram
+    autonumber
+    actor User as Client / E-Commerce Consumer
+    participant Ingress as Ingress Sentinel & Token Guard
+    participant Core as AuraVTO Master Orchestrator
+    participant SkinAI as YouCam Skin AI Analyzer
+    participant Spatial as PG-MOD-18 3DGS Manifold
+    participant VTO as Virtual Try-On Pipeline
+    participant Safety as ASIL-D Safety & ZDR Purger
+
+    User->>Ingress: Submit Selfie / Image Stream + Look Request
+    Ingress->>Ingress: Verify VRAM (<50GB) & Bearer Token
+    Ingress->>Core: Dispatch Sanitized Request
+    Core->>SkinAI: Analyze Skin Diagnostics (Texture, Redness, Oiliness)
+    SkinAI-->>Core: Return Diagnostic Manifold Vector
+    Core->>Spatial: Reconstruct 3D Facial Keypoints & Lighting SE(3)
+    Spatial-->>Core: Calibrated 3D Face Anchor
+    Core->>VTO: Apply Look VTO Template + Skin Conditioning
+    VTO-->>Core: High-Fidelity Photorealistic AR/VR Texture
+    Core->>Safety: Check Memory & System Load
+    alt Load > 85%
+        Safety->>Core: Apply 1.35x Damping Jump
+    else Nominal
+        Safety->>Core: Nominal 1.0x Pass
+    end
+    Safety->>Safety: 2-Pass ZDR Memory Purge (0.000000 MB Residue)
+    Core->>User: Deliver Diagnostic Report & High-Res Try-On Render

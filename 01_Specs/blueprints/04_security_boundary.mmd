@@ -1,0 +1,18 @@
+graph LR
+    subgraph UntrustedZone ["Untrusted External Domain"]
+        RawInput["Raw User Photo / Video Feed"]
+        ExtAPI["Public Cloud / Third-Party Endpoints"]
+    end
+    subgraph DMZBoundary ["DMZ Sanitization Gateway"]
+        AuthFilter["Bearer Token Sanitizer"]
+        VRAMFence["50GB VRAM Early Threshold Sentinel"]
+    end
+    subgraph TrustedCore ["Sovereign Execution Core"]
+        Engine["AuraVTO Deterministic Engine"]
+        ZDR_Wipe["2-Pass Bitwise Memory Scrubber"]
+    end
+    RawInput --> AuthFilter
+    ExtAPI --> AuthFilter
+    AuthFilter --> VRAMFence
+    VRAMFence --> Engine
+    Engine --> ZDR_Wipe

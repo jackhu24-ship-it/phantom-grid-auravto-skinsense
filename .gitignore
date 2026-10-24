@@ -1,0 +1,98 @@
+# ─────────────────────────────────────────────
+# 🔴 重要資料：信用卡／金融／個資／密碼（一律不上傳）
+# ─────────────────────────────────────────────
+*信用卡*
+*卡號*
+*帳單*
+*刷卡*
+*金融卡*
+*credit-card*
+*credit_card*
+*card-number*
+*cvv*
+*帳戶*
+*存摺*
+*轉帳*
+*匯款*
+*password*
+*passwd*
+*secret*
+*credential*
+*token*
+*auth*
+
+# ─────────────────────────────────────────────
+# 🔴 API 金鑰、MCP 密鑰與環境設定檔案
+# ─────────────────────────────────────────────
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa
+id_rsa*
+id_dsa
+id_dsa*
+*.p8
+*.jks
+*mcp*key*
+*mcp*token*
+*mcp*secret*
+*mcp*cred*
+mcp_config.json
+mcp-settings.json
+
+# ─────────────────────────────────────────────
+# 🔴 登入狀態／授權快取
+# ─────────────────────────────────────────────
+*login.json
+*.cookie
+cookies*.txt
+.cookies*
+.npmrc
+.netlify
+.firebase/
+firebase_deploy/
+
+# ─────────────────────────────────────────────
+# 🔴 檔案類型：影片／PDF／音訊（一律不上傳）
+# ─────────────────────────────────────────────
+*.pdf
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.m4v
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.ogg
+*.wma
+
+# ─────────────────────────────────────────────
+# 工具、快取與建置產物
+# ─────────────────────────────────────────────
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+.next/
+*.log
+.DS_Store
+Thumbs.db
+.coverage*
+htmlcov/
+.pytest_cache/
+temp_youcam_render/
