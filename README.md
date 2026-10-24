@@ -58,6 +58,13 @@ AuraVTO enforces a strict decoupled dual-track operational model:
 
 ## 3. Quickstart & 3-Line Reproduction Guide
 
+### Environment Configuration (.env)
+A secure template is provided in .env.example. Create your local environment file:
+`ash
+cp .env.example .env
+`
+Configure YOUCAM_API_KEY with your bearer token from [YouCam API Console](https://yce.perfectcorp.com/api-console/). If omitted, the engine automatically falls back to deterministic local inference for offline zero-latency evaluation.
+
 ### Step 1: Clone Public Repository
 ```bash
 git clone -b main https://github.com/jackhu24-ship-it/phantom-grid-auravto-skinsense.git
