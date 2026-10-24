@@ -11,7 +11,11 @@
 ---
 
 <p align="center">
-  <img src="03_CoverImage_16x9/cover_image.png" alt="PHANToM GRID AuraVTO Banner" width="100%">
+  <a href="https://youtu.be/GExjzxE_VUM" target="_blank" title="Click to watch Hollywood 1440P Demo Video on YouTube">
+    <img src="03_CoverImage_16x9/cover_image.png" alt="PHANToM GRID AuraVTO Banner - Click to Watch Demo Video" width="100%">
+  </a>
+  <br>
+  <sub>🎬 <b>Click the banner above to watch the Official Hollywood 1440P Demo Video on YouTube</b> (128s / 2:08 min)</sub>
 </p>
 
 ---
