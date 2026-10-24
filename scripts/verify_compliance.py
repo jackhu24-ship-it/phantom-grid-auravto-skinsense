@@ -12,7 +12,7 @@ BASE = r"G:\我的雲端硬碟\260803_opencode\01_賽事專區\202611_YouCam_Ski
 DRAWERS = [
     ("01_Specs", ["SPEC_01_AuraVTO_Architecture.md", "table1_resource_defense_matrix.csv"]),
     ("02_SourceCode", ["main.py", "pyproject.toml"]),
-    ("03_CoverImage_16x9", ["cover_image.svg"]),
+    ("03_CoverImage_16x9", ["cover_image.png", "cover_image.svg"]),
     ("04_Slides_PDF", ["SLIDES_PRESENTATION.pdf", "slides_10page_template.html"]),
     ("05_DemoVideo_1440P", ["demo_video_1440p.mp4", "video_script_hollywood.md"]),
     ("06_LiveApp", ["index.html"]),
